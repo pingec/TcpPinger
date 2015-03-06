@@ -1,0 +1,19 @@
+{
+  "name": "TcpPinger",
+  "version": "0.0.1",
+  "description": "\"Tcp-pings\" hosts on configurable ports and intervals and sends email notifications when they are down.",
+  "main": "main.js",
+  "dependencies": {
+    "nodemailer": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tcp ping",
+    "Tcp tester"
+  ],
+  "author": "matej.drolc@pingec.si",
+  "license": "ISC"
+}
